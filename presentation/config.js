@@ -1,4 +1,4 @@
 module.exports = {
-  title: 'Patterns JS',
-  port: process.env.PORT || 3000
+    title: 'Patterns JS',
+    port: process.env.PORT || 3000
 };
