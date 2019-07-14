@@ -1,7 +1,7 @@
 <section>
     <section>
         <!--<h2>Advanced <span class="text-yellow">CSS</span>. Cross-browser <span class="text-yellow">CSS</span></h2>-->
-        <img class="b-h" src="images/desingpatterns.jpg" alt="">
+        <img class="b-h" style="height: 56vh;" src="images/desingpatterns.jpg" alt="">
     </section>
     <section>
         <h1>
@@ -25,6 +25,7 @@
     </section>
     <section>
         <h2>Patterns advantages</h2>
+        <hr class="line">
         <ul>
             <li>
                 combine experiences of many developers to solve problems
@@ -45,162 +46,276 @@
         <h4>
             Its a general solutions that are not tied to a specific problem.
         </h4>
-        <img class="prototype-funny" src="images/prototype_funny.gif" alt="">
+        <img src="images/bug.jpg" alt="">
     </section>
 </section>
 <section>
     <img src="images/all.jpg" alt="">
 </section>
 <!--<section>-->
-    <!--<h2><span class="text-yellow">CSS</span> selectors</h2>-->
-    <!--<section>-->
-        <!--<img class="b-h" src="https://memegenerator.net/img/instances/75799647.jpg" alt="">-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<h1><span class="text-yellow">Specifics</span></h1>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<img class="b-h"-->
-             <!--src="https://habrastorage.org/getpro/habr/comment_images/711/68c/478/71168c4780ebd1b7888f75ecdb474494.jpg"-->
-             <!--alt="">-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<h1><span class="text-yellow">CSS</span> Combinators</h1>-->
-    <!--</section>-->
-    <!--<section>-->
-      <!--<pre>-->
-        <!--<code class="css" data-trim contenteditable>-->
-            <!--div, p // Selects all &lt;div&gt; elements and all &lt;p&gt; elements-->
-            <!--div p // Selects all &lt;p&gt; elements inside &lt;div&gt; elements-->
-            <!--div > p // Selects all &lt;p&gt; elements where the parent is a &lt;div&gt; element-->
-            <!--div + p // Selects all &lt;p&gt; elements that are placed immediately after &lt;div&gt; elements-->
-            <!--p ~ ul // Selects every &lt;&gt; element that are preceded by a &lt;p&gt; element-->
-        <!--</code>-->
-      <!--</pre>-->
-    <!--</section>-->
+<!--<h2><span class="text-yellow">CSS</span> selectors</h2>-->
+<!--<section>-->
+<!--<img class="b-h" src="https://memegenerator.net/img/instances/75799647.jpg" alt="">-->
 <!--</section>-->
 <!--<section>-->
-    <!--<h2><span class="text-yellow">CSS</span> animation</h2>-->
-    <!--<section style="display: flex; justify-content: center;">-->
-        <!--<div class="animation-demo">-->
-        <!--</div>-->
-        <!--<a href="https://codepen.io/igorjv123/pen/XLEeWe?editors=1100" target="_blank">Code is here</a>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<img src="images/animation-support.jpg" class="m-h" alt="aaa">-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<h1><span class="text-yellow">Transition</span></h1>-->
-    <!--</section>-->
-    <!--<section>-->
-      <!--<pre>-->
-        <!--<code class="css" data-trim contenteditable>-->
-            <!--div {-->
-              <!--transition: width 2s, height 4s;-->
-            <!--}-->
-        <!--</code>-->
-      <!--</pre>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--transition-timing-function-->
-        <!--<pre>-->
-            <!--<code class="css" data-trim contenteditable>-->
-                <!--ease //specifies a transition effect with a slow start, then fast, then end slowly (this is default)-->
-                <!--linear // specifies a transition effect with the same speed from start to end-->
-                <!--ease-in // specifies a transition effect with a slow start-->
-                <!--ease-out // specifies a transition effect with a slow end-->
-                <!--ease-in-out // specifies a transition effect with a slow start and end-->
-                <!--cubic-bezier(n,n,n,n) // lets you define your own values in a cubic-bezier function-->
-            <!--</code>-->
-          <!--</pre>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<h1><span class="text-yellow">CSS</span> transforms</h1>-->
-        <!--<p>allow you to move, rotate, scale, and skew elements</p>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<pre>-->
-            <!--<code class="css" data-trim contenteditable>-->
-                <!--div {-->
-                  <!-- -ms-transform: rotate(20deg); /* IE 9 */-->
-                  <!-- -webkit-transform: rotate(20deg); /* Safari prior 9.0 */-->
-                  <!--transform: rotate(20deg); /* Standard syntax */-->
-                <!--}-->
-            <!--</code>-->
-          <!--</pre>-->
-    <!--</section>-->
-    <!--<section>-->
-      <!--<pre>-->
-        <!--<code class="css" data-trim contenteditable>-->
-            <!--translate()-->
-            <!--rotate()-->
-            <!--scaleX()-->
-            <!--scaleY()-->
-            <!--scale()-->
-            <!--skewX()-->
-            <!--skewY()-->
-            <!--skew()-->
-            <!--matrix()-->
-        <!--</code>-->
-      <!--</pre>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<div class="transform-demo"></div>-->
-    <!--</section>-->
-    <!--<section>-->
-      <!--<pre>-->
-          <!--<code class="css" data-trim contenteditable>-->
-              <!--.transform-demo{-->
-                <!--height: 500px;-->
-                <!--width: 500px;-->
-                <!--background: yellow;-->
-                <!--transition: transform 2s ease-in-out;-->
-              <!--}-->
-              <!--.transform-demo:hover{-->
-                <!--transform: rotate(360deg)-->
-              <!--}-->
-          <!--</code>-->
-        <!--</pre>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<h1><span class="text-yellow">Gradients</span></h1>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<h2><span class="text-yellow">CSS defines</span> two types of gradients:</h2>-->
-        <!--<ul>-->
-            <!--<li>Linear Gradients (goes down/up/left/right/diagonally)</li>-->
-            <!--<li>Radial Gradients (defined by their center)</li>-->
-        <!--</ul>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<div id="grad">-->
-
-        <!--</div>-->
-        <!--<pre>-->
-          <!--<code class="css" data-trim contenteditable>-->
-              <!--#grad {-->
-                <!--background-image: linear-gradient(to bottom right, red, yellow);-->
-              <!--}-->
-          <!--</code>-->
-        <!--</pre>-->
-
-    <!--</section>-->
+<!--<h1><span class="text-yellow">Specifics</span></h1>-->
 <!--</section>-->
 <!--<section>-->
-    <!--<h2><span class="text-yellow">Cross</span>-browser</h2>-->
-    <!--<section>-->
-        <!--<img src="http://impaler.github.io/cross-browser-css-scss-slides/images/my-css-works.jpg" alt="">-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<h1><span class="text-yellow">CSS</span> vendor prefixes</h1>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<img src="images/vendors-1.jpg" alt="">-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<img src="images/vendors-2.jpg" alt="">-->
-    <!--</section>-->
+<!--<img class="b-h"-->
+<!--src="https://habrastorage.org/getpro/habr/comment_images/711/68c/478/71168c4780ebd1b7888f75ecdb474494.jpg"-->
+<!--alt="">-->
 <!--</section>-->
+<!--<section>-->
+<!--<h1><span class="text-yellow">CSS</span> Combinators</h1>-->
+<!--</section>-->
+<!--<section>-->
+<!--<pre>-->
+<!--<code class="css" data-trim contenteditable>-->
+<!--div, p // Selects all &lt;div&gt; elements and all &lt;p&gt; elements-->
+<!--div p // Selects all &lt;p&gt; elements inside &lt;div&gt; elements-->
+<!--div > p // Selects all &lt;p&gt; elements where the parent is a &lt;div&gt; element-->
+<!--div + p // Selects all &lt;p&gt; elements that are placed immediately after &lt;div&gt; elements-->
+<!--p ~ ul // Selects every &lt;&gt; element that are preceded by a &lt;p&gt; element-->
+<!--</code>-->
+<!--</pre>-->
+<!--</section>-->
+<!--</section>-->
+<!--<section>-->
+<!--<h2><span class="text-yellow">CSS</span> animation</h2>-->
+<!--<section style="display: flex; justify-content: center;">-->
+<!--<div class="animation-demo">-->
+<!--</div>-->
+<!--<a href="https://codepen.io/igorjv123/pen/XLEeWe?editors=1100" target="_blank">Code is here</a>-->
+<!--</section>-->
+<!--<section>-->
+<!--<img src="images/animation-support.jpg" class="m-h" alt="aaa">-->
+<!--</section>-->
+<!--<section>-->
+<!--<h1><span class="text-yellow">Transition</span></h1>-->
+<!--</section>-->
+<!--<section>-->
+<!--<pre>-->
+<!--<code class="css" data-trim contenteditable>-->
+<!--div {-->
+<!--transition: width 2s, height 4s;-->
+<!--}-->
+<!--</code>-->
+<!--</pre>-->
+<!--</section>-->
+<!--<section>-->
+<!--transition-timing-function-->
+<!--<pre>-->
+<!--<code class="css" data-trim contenteditable>-->
+<!--ease //specifies a transition effect with a slow start, then fast, then end slowly (this is default)-->
+<!--linear // specifies a transition effect with the same speed from start to end-->
+<!--ease-in // specifies a transition effect with a slow start-->
+<!--ease-out // specifies a transition effect with a slow end-->
+<!--ease-in-out // specifies a transition effect with a slow start and end-->
+<!--cubic-bezier(n,n,n,n) // lets you define your own values in a cubic-bezier function-->
+<!--</code>-->
+<!--</pre>-->
+<!--</section>-->
+<!--<section>-->
+<!--<h1><span class="text-yellow">CSS</span> transforms</h1>-->
+<!--<p>allow you to move, rotate, scale, and skew elements</p>-->
+<!--</section>-->
+<!--<section>-->
+<!--<pre>-->
+<!--<code class="css" data-trim contenteditable>-->
+<!--div {-->
+<!-- -ms-transform: rotate(20deg); /* IE 9 */-->
+<!-- -webkit-transform: rotate(20deg); /* Safari prior 9.0 */-->
+<!--transform: rotate(20deg); /* Standard syntax */-->
+<!--}-->
+<!--</code>-->
+<!--</pre>-->
+<!--</section>-->
+<!--<section>-->
+<!--<pre>-->
+<!--<code class="css" data-trim contenteditable>-->
+<!--translate()-->
+<!--rotate()-->
+<!--scaleX()-->
+<!--scaleY()-->
+<!--scale()-->
+<!--skewX()-->
+<!--skewY()-->
+<!--skew()-->
+<!--matrix()-->
+<!--</code>-->
+<!--</pre>-->
+<!--</section>-->
+<!--<section>-->
+<!--<div class="transform-demo"></div>-->
+<!--</section>-->
+<!--<section>-->
+<!--<pre>-->
+<!--<code class="css" data-trim contenteditable>-->
+<!--.transform-demo{-->
+<!--height: 500px;-->
+<!--width: 500px;-->
+<!--background: yellow;-->
+<!--transition: transform 2s ease-in-out;-->
+<!--}-->
+<!--.transform-demo:hover{-->
+<!--transform: rotate(360deg)-->
+<!--}-->
+<!--</code>-->
+<!--</pre>-->
+<!--</section>-->
+<!--<section>-->
+<!--<h1><span class="text-yellow">Gradients</span></h1>-->
+<!--</section>-->
+<!--<section>-->
+<!--<h2><span class="text-yellow">CSS defines</span> two types of gradients:</h2>-->
+<!--<ul>-->
+<!--<li>Linear Gradients (goes down/up/left/right/diagonally)</li>-->
+<!--<li>Radial Gradients (defined by their center)</li>-->
+<!--</ul>-->
+<!--</section>-->
+<!--<section>-->
+<!--<div id="grad">-->
+
+<!--</div>-->
+<!--<pre>-->
+<!--<code class="css" data-trim contenteditable>-->
+<!--#grad {-->
+<!--background-image: linear-gradient(to bottom right, red, yellow);-->
+<!--}-->
+<!--</code>-->
+<!--</pre>-->
+
+<!--</section>-->
+<!--</section>-->
+<!--<section>-->
+<!--<h2><span class="text-yellow">Cross</span>-browser</h2>-->
+<!--<section>-->
+<!--<img src="http://impaler.github.io/cross-browser-css-scss-slides/images/my-css-works.jpg" alt="">-->
+<!--</section>-->
+<!--<section>-->
+<!--<h1><span class="text-yellow">CSS</span> vendor prefixes</h1>-->
+<!--</section>-->
+<!--<section>-->
+<!--<img src="images/vendors-1.jpg" alt="">-->
+<!--</section>-->
+<!--<section>-->
+<!--<img src="images/vendors-2.jpg" alt="">-->
+<!--</section>-->
+<!--</section>-->
+<section>
+    <section>
+        <h2>
+            Decorator
+        </h2>
+        <hr class="line">
+        <h4>
+            It's basically a wrapper which extends the functionality of an object while maintaining object interface.
+        </h4>
+    </section>
+    <section>
+        <h2>
+            Bind - simplest decorator
+        </h2>
+        <hr class="line">
+        <pre>
+            <code class="css" data-trim contenteditable>
+                function bind(func, context) {
+                    return function() {
+                        return func.apply(context, arguments);
+                    };
+                }
+            </code>
+        </pre>
+    </section>
+    <section>
+        <h2>
+            Prototype
+        </h2>
+        <hr class="line">
+        <h4>
+            We can think of the prototype pattern as being based on prototypal inheritance where we create objects
+            which act as prototypes for other objects. The prototype object itself is effectively used as a blueprint
+            for each object the constructor creates. If the prototype of the constructor function used contains a
+            property called name for example (as per the code sample lower down), then each object created by
+            that same constructor will also have this same property.
+            Real prototypical inheritance, as defined in the ECMAScript 5 standard, requires the use of Object.create
+
+        </h4>
+    </section>
+    <section>
+        <h2>
+            Prototype
+        </h2>
+        <hr class="line">
+        <img class="prototype-code" src="images/prototype_pattern.png" alt="">
+        <!--<pre>-->
+        <!--<code>-->
+        <!---->
+        <!--</code>-->
+        <!--</pre>-->
+    </section>
+    <section>
+        <img class="prototype-funny" src="images/prototype_funny.gif" alt="">
+    </section>
+    <section>
+        <h2>
+            Factory
+        </h2>
+        <hr class="line">
+        <h5>
+            Is using for simplify objects creating and generating with out using Constructor.
+        </h5>
+    </section>
+    <section>
+        <h2>
+            Factory
+        </h2>
+        <hr class="line">
+        <pre class="factory-code__wrap">
+            <code class="factory-code">
+                // Factory Pattern //
+                // Несколько конструкторов для нашей фабрики
+                function Cat(options) {
+                  this.sound = 'Meow';
+                  this.name = options.name;
+                }
+                function Dog(options) {
+                  this.sound = 'Rawr';
+                  this.name = options.name;
+                }
+                // Animal Factory
+                function AnimalFactory() {}
+                // Тип Cat по умолчанию
+                AnimalFactory.prototype.animalType = Cat;
+                // метод для создания новых животных
+                AnimalFactory.prototype.createAnimal = function(options) {
+                  switch(options.animalType) {
+                    case "cat":
+                      this.animalType = Cat;
+                      break;
+                    case "dog":
+                      this.animalType = Dog;
+                      break;
+                    default:
+                      this.animalType = Cat;
+                      break;
+                  }
+                  return new this.animalType(options);
+                }
+                var animalFactory = new AnimalFactory();
+                var doge = animalFactory.createAnimal({
+                  animalType: 'dog',
+                  name: 'Doge'
+                });
+                var snowball = animalFactory.createAnimal({name: 'Snowball'});
+                console.log(doge instanceof Dog);     // true
+                console.log(doge);                    // выводит doge
+                console.log(snowball instanceof Cat); // true
+                console.log(snowball);                // выводит snowball
+            </code>
+        </pre>
+    </section>
+</section>
 <section>
     <section>
         Desing patterns !== Frameworls
@@ -215,6 +330,7 @@
         <h2>
             Problems with MVC
         </h2>
+        <hr class="line">
         <ul>
             <li>
                 Big variety of different realization
@@ -233,6 +349,7 @@
         <h2>
             MVC
         </h2>
+        <hr class="line">
         <ul>
             <li>
                 MVC - a set of ideas/principles/approaches
@@ -255,20 +372,22 @@
         <h2>
             MVVM
         </h2>
+        <hr class="line">
         <img src="images/mvvm.png" alt="">
     </section>
     <!--<section>-->
-        <!--<h2>-->
-            <!--Вуйові розробники <img class="vue-logo" src="images/vue.png" alt="">-->
-        <!--</h2>-->
-        <!--<h4>-->
-            <!--Vue - particular realize MVVM patern-->
-        <!--</h4>-->
+    <!--<h2>-->
+    <!--Вуйові розробники <img class="vue-logo" src="images/vue.png" alt="">-->
+    <!--</h2>-->
+    <!--<h4>-->
+    <!--Vue - particular realize MVVM patern-->
+    <!--</h4>-->
     <!--</section>-->
     <section>
         <h2>
             Вуйові розробники
         </h2>
+        <hr class="line">
         <div class="vv-wrap">
             <img class="vv" src="images/vv.png" alt="">
             <p>Vue + Vuex - realize pattern MVVM</p>

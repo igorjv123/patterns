@@ -132,11 +132,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .vue-mark {
-    height: 75vh;
+    height: 50vh;
 }
 
 .mvc {
-    height: 75vh;
+    height: 50vh;
 }
 
 .vv {
@@ -149,4 +149,20 @@ h1, h2, h3, h4, h5, h6 {
 .vv-wrap {
     display: flex;
     align-items: center;
+}
+
+.prototype-code {
+    height: 60vh;
+    object-fit: contain;
+    background-color: transparent !important;
+    margin: 0 !important;
+    border-color: transparent !important;
+}
+
+.factory-code__wrap {
+
+}
+
+.factory-code {
+    max-height: 500px !important;
 }
